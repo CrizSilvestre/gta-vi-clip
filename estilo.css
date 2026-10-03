@@ -41,3 +41,7 @@ code{background:var(--panel);padding:1px 6px;border-radius:6px;font-size:14px}
 footer{border-top:1px solid var(--borde);font-size:14px;color:var(--suave)}
 footer .envoltura{padding-top:18px;padding-bottom:26px;display:flex;gap:16px;flex-wrap:wrap}
 footer a{color:var(--suave)}
+table{table-layout:fixed}
+td,th{overflow-wrap:anywhere}
+td:first-child,th:first-child{width:34%}
+body{overflow-x:hidden}
