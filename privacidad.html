@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacidad · GTA VI Clip Studio</title>
+<meta name="description" content="Política de privacidad de GTA VI Clip Studio: qué datos de Google usa, cómo se guardan y cómo revocar el acceso.">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header><div class="envoltura">
+  <img src="logo.png" alt="Logo de GTA VI CLIPs">
+  <a class="marca" href="./">GTA VI Clip Studio</a>
+  <nav><a href="./">Inicio</a><a href="privacidad.html" aria-current="page">Privacidad</a><a href="terminos.html">Términos</a></nav>
+</div></header>
+
+<main><div class="envoltura">
+  <h1>Política de privacidad</h1>
+  <p class="fecha">Última actualización: 3 de octubre de 2026</p>
+
+  <p>GTA VI Clip Studio («la app») es una aplicación de escritorio que el creador del canal de YouTube
+    <b>GTA VI CLIPs</b> usa en su propia computadora para editar Shorts y subirlos a su canal. La app no tiene
+    servidores propios: todo lo que hace ocurre en la computadora de quien la usa.</p>
+
+  <h2>1. Datos de Google que usa</h2>
+  <p>Cuando conectas tu cuenta, la app pide solo estos permisos de la API de YouTube:</p>
+  <table>
+    <tr><th>Permiso</th><th>Para qué se usa</th></tr>
+    <tr><td><code>youtube.upload</code></td><td>Subir a tu canal los videos que tú creaste con la app, cuando pulsas
+      «Subir a YouTube», con el título, la descripción y las etiquetas que la app preparó.</td></tr>
+    <tr><td><code>youtube.readonly</code></td><td>Leer el nombre y el identificador de tu canal, para mostrarte en qué
+      canal se va a subir el video.</td></tr>
+  </table>
+  <p>La app no lee tus correos, contactos, archivos, historial ni otros datos de tu cuenta de Google, y no
+    modifica ni borra videos existentes.</p>
+
+  <h2>2. Dónde se guardan</h2>
+  <ul>
+    <li>El permiso de acceso (el «token» que entrega Google) se guarda <b>solo en tu computadora</b>, en un archivo
+      privado al que únicamente tu usuario puede acceder. No se envía a ningún otro lugar.</li>
+    <li>La app guarda localmente una lista de los videos que ya subió (su identificador de YouTube y la fecha), para
+      no subir dos veces el mismo Short y darte el enlace a YouTube Studio.</li>
+    <li>No hay cuentas, bases de datos en la nube, analítica ni cookies de seguimiento.</li>
+  </ul>
+
+  <h2>3. Con quién se comparten</h2>
+  <p>Los datos de tu cuenta de Google no se venden, no se alquilan y no se comparten con nadie. Los videos que subes
+    van directamente a YouTube (Google).</p>
+  <p>Para crear el contenido de los Shorts, la app usa además servicios de inteligencia artificial de terceros:
+    Google Gemini (para generar la voz a partir del texto del guion) y Anthropic Claude (para escribir guiones e
+    ideas). A esos servicios solo se envía el contenido del video (texto del guion, fotogramas del tráiler); nunca
+    datos de tu cuenta de YouTube ni el permiso de acceso.</p>
+
+  <h2>4. Uso limitado</h2>
+  <p>El uso y la transferencia a cualquier otra aplicación de la información recibida de las APIs de Google cumplen
+    la <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Política
+    de Datos del Usuario de los Servicios de las APIs de Google</a>, incluidos los requisitos de Uso Limitado.</p>
+
+  <h2>5. Servicios de la API de YouTube</h2>
+  <p>La app usa los Servicios de la API de YouTube. Al usarla, aceptas los
+    <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Términos del Servicio de YouTube</a>.
+    El tratamiento de tus datos por parte de Google se rige por la
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>.</p>
+
+  <h2>6. Cómo quitar el acceso</h2>
+  <ul>
+    <li>En la app: <b>⚙️ Ajustes → YouTube → Desconectar</b>. Borra el permiso de tu computadora y lo revoca en Google.</li>
+    <li>En tu cuenta de Google, en cualquier momento:
+      <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.</li>
+  </ul>
+  <p>Si quitas el acceso, la app borra el permiso guardado. La lista local de videos subidos solo contiene
+    identificadores de videos públicos o privados de tu propio canal y puedes borrarla eliminando el archivo
+    <code>shorts/subidas.json</code>.</p>
+
+  <h2>7. Menores</h2>
+  <p>La app es una herramienta de edición de uso personal y no está dirigida a menores de 13 años.</p>
+
+  <h2>8. Cambios</h2>
+  <p>Si esta política cambia, se publicará aquí con una nueva fecha de actualización.</p>
+
+  <h2>9. Contacto</h2>
+  <p>Para preguntas sobre esta política, abre un tema en
+    <a href="https://github.com/CrizSilvestre/gta-vi-clip/issues" target="_blank" rel="noopener">github.com/CrizSilvestre/gta-vi-clip/issues</a>
+    o escribe a través del canal de YouTube.</p>
+</div></main>
+
+<footer><div class="envoltura">
+  <span>© 2026 GTA VI CLIPs</span>
+  <a href="./">Inicio</a>
+  <a href="terminos.html">Términos del servicio</a>
+</div></footer>
+</body>
+</html>
