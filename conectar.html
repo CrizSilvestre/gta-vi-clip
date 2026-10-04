@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Conectando · GTA VI Clip Studio</title>
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="estilo.css">
+<script>
+  // Página puente: TikTok e Instagram exigen una dirección https para volver después de dar el permiso.
+  // Esta página solo reenvía ese regreso al estudio que corre en la propia computadora del usuario.
+  // No guarda ni envía nada a ningún otro sitio.
+  (function () {
+    var q = location.search || "";
+    if (/[?&]state=(tt|ig)-/.test(q)) {
+      location.replace("http://127.0.0.1:8765/oauth" + q);
+    }
+  })();
+</script>
+</head>
+<body>
+<header><div class="envoltura">
+  <img src="logo.png" alt="Logo de GTA VI CLIPs">
+  <a class="marca" href="./">GTA VI Clip Studio</a>
+</div></header>
+<main><div class="envoltura">
+  <h1>Conectando…</h1>
+  <p class="lead">Volviendo a GTA VI Clip Studio en tu computadora. Si no pasa nada, asegúrate de que el estudio
+    esté abierto y vuelve a pulsar «Conectar».</p>
+  <p class="aviso">Esta página solo devuelve el permiso a la app que corre en tu propia computadora. Más información
+    en la <a href="privacidad.html">política de privacidad</a>.</p>
+</div></main>
+</body>
+</html>
