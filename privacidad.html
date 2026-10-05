@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacidad · GTA VI Clip Studio</title>
-<meta name="description" content="Política de privacidad de GTA VI Clip Studio: qué datos de Google usa, cómo se guardan y cómo revocar el acceso.">
+<meta name="description" content="Política de privacidad de GTA VI Clip Studio: qué datos de Google, TikTok e Instagram usa, cómo se guardan y cómo revocar el acceso.">
 <link rel="icon" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +20,7 @@
 
 <main><div class="envoltura">
   <h1>Política de privacidad</h1>
-  <p class="fecha">Última actualización: 4 de octubre de 2026</p>
+  <p class="fecha">Última actualización: 4 de octubre de 2026 (estadísticas y publicación en Instagram)</p>
 
   <p>GTA VI Clip Studio («la app») es una aplicación de escritorio que el creador del canal de YouTube
     <b>GTA VI CLIPs</b> usa en su propia computadora para editar videos cortos y publicarlos en sus propias cuentas de
@@ -34,7 +34,10 @@
     <tr><td><code>youtube.upload</code></td><td>Subir a tu canal los videos que tú creaste con la app, cuando pulsas
       «Subir a YouTube», con el título, la descripción y las etiquetas que la app preparó.</td></tr>
     <tr><td><code>youtube.readonly</code></td><td>Leer el nombre y el identificador de tu canal, para mostrarte en qué
-      canal se va a subir el video.</td></tr>
+      canal se va a subir el video, y las cifras públicas de tus videos (vistas, likes, comentarios).</td></tr>
+    <tr><td><code>yt-analytics.readonly</code></td><td>Leer las estadísticas de tus propios videos (curva de retención,
+      porcentaje visto, duración media), para mostrarte dentro de la app en qué segundo se va la audiencia. Solo de tu
+      canal y solo para consultarlas: la app no modifica nada.</td></tr>
   </table>
   <p>La app no lee tus correos, contactos, archivos, historial ni otros datos de tu cuenta de Google, y no
     modifica ni borra videos existentes.</p>
@@ -52,6 +55,10 @@
       texto.</td></tr>
   </table>
   <p>La app no lee mensajes, comentarios, seguidores ni otros contenidos de esas cuentas.</p>
+  <p><b>Cómo llega el video a Instagram:</b> la API de Instagram no acepta subir el archivo directamente; exige una
+    dirección web desde la que descargarlo. Mientras publicas, la app abre un enlace temporal y aleatorio (a través de
+    Cloudflare) que sirve únicamente ese video, desde tu computadora. En cuanto Instagram termina de procesarlo, el
+    enlace se cierra. El video no se guarda en ningún servidor de la app.</p>
 
   <h2>2. Dónde se guardan</h2>
   <ul>
